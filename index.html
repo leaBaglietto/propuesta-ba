@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MATER.IA — Aprender no es cosa del pasado | GCBA</title>
+  <meta name="description"
+    content="MATER.IA es la iniciativa del Gobierno de la Ciudad de Buenos Aires que lleva la educación en inteligencia artificial a las escuelas mediante un trailer tecnológico itinerante.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="MATER.IA — Preparamos juntos a la próxima generación">
+  <meta property="og:description"
+    content="MATER.IA es la iniciativa del GCBA que lleva la educación en inteligencia artificial a las escuelas mediante un trailer tecnológico itinerante.">
+  <meta property="og:image" content="img/og-image.png">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/logo-materia.svg">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="container">
+      <a href="#hero" class="navbar__logo" aria-label="MATER.IA — Inicio">
+        <img src="img/logo-materia.svg" alt="Logo MATER.IA" width="240" height="48">
+      </a>
+      <div class="navbar__links" id="navbarLinks">
+        <a href="#problema" class="navbar__link">El Problema</a>
+        <a href="#experiencia" class="navbar__link">La Experiencia</a>
+      </div>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menú de navegación">
+    <a href="#problema" class="mobile-menu__link" data-mobile-link>El Problema</a>
+    <a href="#experiencia" class="mobile-menu__link" data-mobile-link>La Experiencia</a>
+  </div>
+
+  <main>
+    <!-- ============================================================
+         S1 — HERO
+         ============================================================ -->
+    <section class="hero section" id="hero" aria-label="Portada">
+      <div class="hero__bg">
+        <img src="img/hero-ojo.png" alt="Ojo humano representando inteligencia artificial" loading="eager"
+          class="parallax-bg">
+      </div>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <div class="hero__logos animate-on-scroll">
+          <img src="img/logo-ba.png" alt="Logo Gobierno de la Ciudad de Buenos Aires" class="hero__logo-ba">
+          <img src="img/logo-materia.svg" alt="Logo MATER.IA" class="hero__logo-materia">
+        </div>
+        <h1 class="hero__headline animate-on-scroll">Aprender no es cosa del pasado.</h1>
+        <p class="hero__tagline animate-on-scroll">MATER.IA — Una iniciativa del Gobierno de la Ciudad de Buenos Aires
+        </p>
+        <div class="hero__ctas animate-on-scroll">
+          <a href="#quees" class="btn btn--primary" id="cta-conoce">Conocé el proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         S2 — EL PROBLEMA
+         ============================================================ -->
+    <section class="problema section" id="problema" aria-label="El problema educativo">
+      <div class="problema__bg">
+        <img src="img/classroom.png" alt="Aula escolar tradicional con estudiantes" loading="lazy" class="parallax-bg">
+      </div>
+      <div class="problema__overlay"></div>
+      <div class="problema__content container">
+        <h2 class="problema__title animate-on-scroll">El sistema educativo tradicional quedó obsoleto.</h2>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         S3 — LOS DATOS
+         ============================================================ -->
+    <section class="datos section" id="datos" aria-label="Estadísticas">
+      <canvas id="particles-canvas" class="particles-canvas"></canvas>
+      <div class="container">
+        <div class="datos__grid">
+          <!-- Dato 1 -->
+          <div class="datos__item animate-on-scroll">
+            <div class="datos__icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <div class="datos__number" data-count="61">0%</div>
+            <p class="datos__desc">de los empleados espera que las nuevas tecnologías cambien significativamente su rol
+              laboral tan pronto como en 2026.</p>
+          </div>
+          <!-- Dato 2 -->
+          <div class="datos__item animate-on-scroll delay-1">
+            <div class="datos__icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
+                <path d="M12 8v4l3 3" />
+              </svg>
+            </div>
+            <div class="datos__number" data-count="47">0%</div>
+            <p class="datos__desc">de los trabajadores teme que la tecnología vuelva completamente obsoletos sus puestos
+              de trabajo para el año 2030.</p>
+          </div>
+          <!-- Dato 3 -->
+          <div class="datos__item animate-on-scroll delay-2">
+            <div class="datos__icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div class="datos__number" data-count="55">0%</div>
+            <p class="datos__desc">de la fuerza laboral requerirá recapacitación debido a la automatización impulsada
+              por la IA para finales de 2026.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         S4 — EL NUEVO VALOR HUMANO
+         ============================================================ -->
+    <section class="valor section" id="valor" aria-label="El nuevo valor humano">
+      <canvas class="particles-canvas"></canvas>
+      <div class="valor__image-wrapper animate-on-scroll">
+        <img src="img/valor-humano.png" alt="Joven estudiante reflexionando junto a la ventana" loading="lazy">
+      </div>
+      <div class="container">
+        <div class="valor__content">
+          <h2 class="valor__title animate-on-scroll">El nuevo<br>valor humano</h2>
+          <div class="valor__list">
+            <div class="valor__item animate-on-scroll">
+              <div class="valor__item-icon">⚖</div>
+              <span>Ejercer juicio</span>
+            </div>
+            <div class="valor__item animate-on-scroll delay-1">
+              <div class="valor__item-icon">🧭</div>
+              <span>Navegar la ambigüedad</span>
+            </div>
+            <div class="valor__item animate-on-scroll delay-2">
+              <div class="valor__item-icon">🤝</div>
+              <span>Construir relaciones</span>
+            </div>
+            <div class="valor__item animate-on-scroll delay-3">
+              <div class="valor__item-icon">💡</div>
+              <span>Impulsar la innovación</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         S5 — QUÉ ES MATER.IA
+         ============================================================ -->
+    <section class="quees section" id="quees" aria-label="Qué es MATER.IA">
+      <canvas class="particles-canvas"></canvas>
+      <div class="quees__image-wrapper animate-on-scroll delay-1">
+        <img src="img/tariler-joy.png" alt="Trailer MATER.IA abierto con estudiantes" loading="lazy">
+      </div>
+      <div class="container">
+        <div class="quees__text">
+          <h2 class="quees__title animate-on-scroll"><img src="img/logo-materia.svg" alt="MATER.IA"
+              style="height: clamp(3rem, 6vw, 5rem); width: auto;"></h2>
+          <p class="quees__tagline animate-on-scroll">Aprender no es cosa del pasado.</p>
+          <div class="animate-on-scroll">
+            <p>Este no es un lugar para aprender a hacer tareas más rápido.</p>
+            <p>Es un espacio para entender que la IA es una herramienta que requiere de tu inteligencia para funcionar
+              bien.</p>
+            <p>Se trata de pasar de la dependencia pasiva al liderazgo activo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         S6 — LA EXPERIENCIA INTERIOR
+         ============================================================ -->
+    <section class="experiencia section" id="experiencia" aria-label="La experiencia interior">
+      <canvas class="particles-canvas"></canvas>
+      <div class="experiencia__image-wrapper animate-on-scroll delay-1">
+        <img src="img/redactar-ia.jpg" alt="Estudiante usando IA en computadora dentro del trailer MATER.IA" loading="lazy">
+      </div>
+      <div class="container">
+        <div class="experiencia__content">
+          <h2 class="experiencia__title animate-on-scroll">La Experiencia Interior</h2>
+          <div class="experiencia__items">
+            <article class="experiencia__item animate-on-scroll">
+              <span class="experiencia__item-number">01</span>
+              <div class="experiencia__item-text">
+                <h3 class="experiencia__item-title">Cuestionar la verdad</h3>
+                <p class="experiencia__item-desc">Demostrar cómo la IA no es neutral. Devuelve e investiga lo que le pidas.</p>
+              </div>
+            </article>
+            <article class="experiencia__item animate-on-scroll delay-1">
+              <span class="experiencia__item-number">02</span>
+              <div class="experiencia__item-text">
+                <h3 class="experiencia__item-title">Saber expresarse</h3>
+                <p class="experiencia__item-desc">Enseñar la estructura de un buen prompt (Rol, Contexto, Tarea, Tono). La máquina hace el trabajo pesado. Vos tomás las decisiones.</p>
+              </div>
+            </article>
+            <article class="experiencia__item animate-on-scroll delay-2">
+              <span class="experiencia__item-number">03</span>
+              <div class="experiencia__item-text">
+                <h3 class="experiencia__item-title">Aumentar la productividad</h3>
+                <p class="experiencia__item-desc">La IA hará todo más rápido, el tiempo restante debemos usarlo para aplicar el criterio.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         S7 — SUMATE
+         ============================================================ -->
+    <section class="sumate section" id="sumate" aria-label="Cierre institucional">
+      <canvas class="particles-canvas"></canvas>
+      <div class="container">
+        <div class="sumate__header">
+          <h2 class="sumate__title animate-on-scroll">¿Preparamos juntos a la próxima generación?</h2>
+          <div class="sumate__logos animate-on-scroll">
+            <img src="img/logo-ba.png" alt="Logo Gobierno de la Ciudad de Buenos Aires" width="120" height="40">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       S8 — FOOTER
+       ============================================================ -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <a href="https://www.joygroup.agency" class="footer__logo" target="_blank" rel="noopener noreferrer">
+        <img src="img/logo-joy-group.png" alt="Logo Joy Group Agency" width="160" height="32">
+      </a>
+      <p class="footer__copy">© Todos los derechos reservados 2026</p>
+      <div class="footer__links">
+        <a href="https://www.instagram.com/" class="footer__link" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram">Instagram</a>
+        <a href="https://www.linkedin.com/" class="footer__link" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://www.joygroup.agency" class="footer__link" target="_blank"
+          rel="noopener noreferrer">www.joygroup.agency</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
